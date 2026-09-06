@@ -1,0 +1,11 @@
+# Binaries never live in git — they are GitHub Release assets (100 MB limit,
+# and a clone must stay small). The publish script refuses them anyway.
+*.exe
+*.dmg
+*.zip
+*.blockmap
+*.app
+*.pkg
+*.msi
+*.AppImage
+.DS_Store
