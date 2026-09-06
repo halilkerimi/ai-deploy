@@ -1,9 +1,4 @@
-# Changelog
-
-All notable changes to the published builds, newest first. Versions follow the
-app's `package.json`; each entry links the GitHub release that carries the files.
-
-## 0.2.0 — 2026-09-06
+# Elyvers 0.2.0
 
 Elyvers 0.2.0 — internal beta, 2026-09-06.
 
@@ -14,5 +9,3 @@ Changes since v0.1.0:
 
 ⚠ macOS only — no Windows installer in this release.
 macOS: the dmg, opened via right-click › Open the first time (unsigned). The app tells you about the next version and links here; it cannot install it itself until it is signed.
-
-Release: https://github.com/halilkerimi/ai-deploy/releases/tag/v0.2.0

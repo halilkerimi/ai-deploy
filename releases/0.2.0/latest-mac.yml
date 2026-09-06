@@ -1,0 +1,17 @@
+version: 0.2.0
+files:
+  - url: Elyvers-0.2.0-arm64-mac.zip
+    sha512: VyxkmcPguV5uz+XIgLimiwZDka/rjYZPavD34fPQ1wxj3Om9/GfSZy6pJKMNX9hl6/YbV9aQy9bvQ72SYlNLTg==
+    size: 221109304
+  - url: Elyvers-0.2.0-arm64.dmg
+    sha512: nmm6AMcJItz7g+sTXc6NfhqCCmuaE9U1Gi2u3buwNbgJR8vjh8FNwLKymqn3fNWAAptM+CmOozsNzm7VQYQS+g==
+    size: 220734301
+path: Elyvers-0.2.0-arm64-mac.zip
+sha512: VyxkmcPguV5uz+XIgLimiwZDka/rjYZPavD34fPQ1wxj3Om9/GfSZy6pJKMNX9hl6/YbV9aQy9bvQ72SYlNLTg==
+releaseNotes: |
+  Elyvers 0.2.0 — internal beta, 2026-09-06.
+
+  Changes since v0.1.0:
+  - feat(update): the app tells you about a new version and asks before restarting (EL-60)
+  - chore(deploy): the tag names the release commit, win is x64, and the Rosetta fact
+releaseDate: '2026-09-06T21:00:49.860Z'
