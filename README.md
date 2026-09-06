@@ -22,6 +22,13 @@ private. What is here:
   build is not yet signed with a Developer ID, so Gatekeeper asks). macOS
   builds do not auto-update until the app is signed.
 
+## Versions
+
+Plain semver, no suffixes. `0.x.y` is the internal-testing line (every build
+there is a beta, whatever its notes say); `1.0.0` is the first public release.
+Releases are never marked "pre-release" on GitHub: the app's feed resolves
+`releases/latest/download/`, which skips pre-releases.
+
 ## The update feed
 
 The app is built with its feed pointed at
