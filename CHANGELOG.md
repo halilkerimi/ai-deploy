@@ -22,7 +22,6 @@ Release: https://github.com/halilkerimi/ai-deploy/releases/tag/v0.3.0
 Elyvers 0.2.0 — internal beta, 2026-09-06.
 
 Changes since v0.1.0:
-- chore(deploy): publish from the website with --no-gh, and clear the failed win build's tree
 - feat(update): the app tells you about a new version and asks before restarting (EL-60)
 - chore(deploy): the tag names the release commit, win is x64, and the Rosetta fact
 
@@ -30,3 +29,5 @@ Changes since v0.1.0:
 macOS: the dmg, opened via right-click › Open the first time (unsigned). The app tells you about the next version and links here; it cannot install it itself until it is signed.
 
 Release: https://github.com/halilkerimi/ai-deploy/releases/tag/v0.2.0
+
+⚠ Corrected 2026-09-07: this entry originally also listed `chore(deploy): publish from the website with --no-gh…`, which landed AFTER 0.2.0 was built and is in 0.3.0. The resumed deploy computed its notes from HEAD instead of from the release commit; `scripts/deploy.mjs` now computes them from the release commit. The notes baked into the app's own channel file were always the right two.
