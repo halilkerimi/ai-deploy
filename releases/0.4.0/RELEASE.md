@@ -1,9 +1,4 @@
-# Changelog
-
-All notable changes to the published builds, newest first. Versions follow the
-app's `package.json`; each entry links the GitHub release that carries the files.
-
-## 0.4.0 — 2026-09-14
+# Elyvers 0.4.0
 
 Elyvers 0.4.0 — internal beta, 2026-09-14.
 
@@ -36,34 +31,3 @@ Under the hood
 
 Windows: `Elyvers Setup 0.4.0.exe` — built on a Windows machine from the same tag and uploaded to this release separately; unsigned: SmartScreen › More info › Run anyway on first install. Updates itself from here afterwards.
 macOS: the dmg, opened via right-click › Open the first time (unsigned). The app tells you about the next version and links here; it cannot install it itself until it is signed.
-
-Release: https://github.com/halilkerimi/ai-deploy/releases/tag/v0.4.0
-
-## 0.3.0 — 2026-09-06
-
-Elyvers 0.3.0 — internal beta, 2026-09-06.
-
-Changes since v0.2.0:
-- fix(shell): say the app is checking your session, instead of a form nobody should type into (EL-61)
-- docs: how 0.2.0 was cut, and the website-publish path
-- chore(deploy): publish from the website with --no-gh, and clear the failed win build's tree
-
-⚠ macOS only — no Windows installer in this release.
-macOS: the dmg, opened via right-click › Open the first time (unsigned). The app tells you about the next version and links here; it cannot install it itself until it is signed.
-
-Release: https://github.com/halilkerimi/ai-deploy/releases/tag/v0.3.0
-
-## 0.2.0 — 2026-09-06
-
-Elyvers 0.2.0 — internal beta, 2026-09-06.
-
-Changes since v0.1.0:
-- feat(update): the app tells you about a new version and asks before restarting (EL-60)
-- chore(deploy): the tag names the release commit, win is x64, and the Rosetta fact
-
-⚠ macOS only — no Windows installer in this release.
-macOS: the dmg, opened via right-click › Open the first time (unsigned). The app tells you about the next version and links here; it cannot install it itself until it is signed.
-
-Release: https://github.com/halilkerimi/ai-deploy/releases/tag/v0.2.0
-
-⚠ Corrected 2026-09-07: this entry originally also listed `chore(deploy): publish from the website with --no-gh…`, which landed AFTER 0.2.0 was built and is in 0.3.0. The resumed deploy computed its notes from HEAD instead of from the release commit; `scripts/deploy.mjs` now computes them from the release commit. The notes baked into the app's own channel file were always the right two.
