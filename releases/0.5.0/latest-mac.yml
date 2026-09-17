@@ -1,15 +1,15 @@
 version: 0.5.0
 files:
   - url: Elyvers-0.5.0-arm64-mac.zip
-    sha512: psY5tLVae9KEQTU8TDBmICvmIxnmkEQmI8O8nJrgtQKeCJUfthcnXbiMupMM3gNfU2zFoEkreZTdnn9tgtH6oQ==
+    sha512: yxVsRw2olxcWFkUbWyXXh8Gn39TRZF6BNVogFYpbwTXei3Snr2CD9IZQRjyfZ7dz/RghSxPstEdK8AdSIQ9iHg==
     size: 242573465
   - url: Elyvers-0.5.0-arm64.dmg
-    sha512: yuvHif97Jq2KOJ7RIkn3FURYMUgxEwMb8fLjDjEw+GCjrrLfi1VQZilVHD8ENuGPKUIGCSZ7y66yM3zzlMKgWQ==
-    size: 242181653
+    sha512: VnCfdZNOVfFwGylk3IkTXWDT+nD5UjcDgSZjlU2zuaRoYmSubrwPlWAcf23P6219yHmBVjAv9ggnuo0b2SW5Jg==
+    size: 242181689
 path: Elyvers-0.5.0-arm64-mac.zip
-sha512: psY5tLVae9KEQTU8TDBmICvmIxnmkEQmI8O8nJrgtQKeCJUfthcnXbiMupMM3gNfU2zFoEkreZTdnn9tgtH6oQ==
+sha512: yxVsRw2olxcWFkUbWyXXh8Gn39TRZF6BNVogFYpbwTXei3Snr2CD9IZQRjyfZ7dz/RghSxPstEdK8AdSIQ9iHg==
 releaseNotes: |
   Elyvers 0.5.0 — internal beta, 2026-09-17.
 
   Pulse can now show an HTML block the agent composes (EL-71): it renders inline on the start page, checked against the same allow-lists the server uses, with action links and embedded frames as per-agent switches (both off by default). A Pulse instruction no longer moves you to the chat — the page stays and says the instruction went out. Pulse refresh can be scheduled by time and weekday. Fixed: switching chats could show another chat's messages in the one you opened (EL-69).
-releaseDate: '2026-09-17T16:49:03.120Z'
+releaseDate: '2026-09-17T17:01:15.218Z'
