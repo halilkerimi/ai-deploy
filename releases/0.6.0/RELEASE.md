@@ -1,0 +1,33 @@
+# Elyvers 0.6.0
+
+Elyvers 0.6.0 — internal beta, 2026-09-21.
+
+Changes since v0.5.0:
+- docs(jira): re-pull — the High one PASSED, and two arrived from the in-chat search story
+- fix(feedback): report times in the reader's own zone, not raw UTC (VERS-236)
+- docs(jira): re-pull — VERS-236 is new and failing, three tickets left your name
+- fix: make the suites green — one of mine, three that predate me
+- docs(jira): six tickets are fixed and UNRELEASED — say so in the index
+- feat(chat): show how long a turn has been running (VERS-221)
+- feat(chat): name what the agent is doing, instead of showing the tool id (VERS-220)
+- feat(chat, connectors): keep the rejected draft, and make 282 tools reviewable
+- docs(jira): VERS-305 now backs a client commitment, and the ask should change
+- docs(29): the client's IT has already called the certificate 'kein Blocker'
+- docs(jira): the hand-made 282-row tool spreadsheet is VERS-305's real evidence
+- docs: the owner's screenshots answer VERS-141 and expose a defect behind VERS-239
+- docs(29): the legal entity is Leonova GmbH — half of the open question answered
+- chore: keep meetings/ out of git
+- build(win): per-machine install, for the pilot clients' IT to deploy
+- docs(29): scope to Windows only — macOS signing deferred on the owner's word
+- docs(29): how to stop shipping unsigned — what to buy, from whom, in what order
+- test: gate the two fixes — danger-hover fill, and the editor's two modals
+- docs(jira): the VERS-303 capture — tester was on 0.2.0, and no session switch
+- fix(processes): the signed-out notice no longer hides the close question (VERS-230)
+- fix(ui): a danger button's label no longer vanishes on hover (VERS-197)
+- docs(jira): ready-to-paste resolutions for the five fixed tickets
+- docs(jira): what is fixed and what is not — 21 tickets checked against the source
+- docs(jira): my live Jira tickets, worked locally — one file per ticket and an index
+- docs(28): the Windows runbook's release block is 0.5.0's
+
+Windows: `Elyvers Setup 0.6.0.exe` — built on a Windows machine from the same tag and uploaded to this release separately; unsigned: SmartScreen › More info › Run anyway on first install. Updates itself from here afterwards.
+macOS: the dmg, opened via right-click › Open the first time (unsigned). The app tells you about the next version and links here; it cannot install it itself until it is signed.
